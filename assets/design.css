@@ -1,0 +1,103 @@
+ .container {
+    margin: 0 auto;
+    min-height: 100vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  h1{
+    font-size: 18px;
+    text-decoration: underline;
+    text-align: left;
+    color: white;
+  }
+  
+  pre{
+    font-size: 12px;
+    text-align: left;
+    color: black;
+    word-wrap: break-word;
+  }
+
+  p{
+    font-size: 10px;
+    text-align: left;
+    color: black;
+    word-wrap: break-word;
+  }
+  .header{
+      display: inline;
+  }
+  .button{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .icon{
+   display: inline-block;
+   align-items: center;
+   width: 30px;
+  }
+
+  .main_logo{
+    width: 100%;
+  }
+  .content{
+    position: relative;
+    width: 100%;
+    
+  }
+  .robo{
+    position: absolute;
+    top:25%;
+    left:1%;
+    width:15%;
+  }
+  .detail{
+     margin-top: 15px;
+     margin-left: 30px;
+     margin-right: 0px;
+     padding:5px 5px 5px 30px;
+     background-color: #d3d3d3;
+  }
+
+  .detail_privacy{
+    margin: 15px;
+    padding: 15px;
+    background-color: #d3d3d3;
+  }
+  
+  .link_to_privacy {
+    float: left;
+    font-style: black;
+    margin: 5px;
+  }
+  .link_to_company {
+    float: right;
+    font-style: black;
+    margin: 5px;
+  }
+  .link_to_top {
+    float: left;
+    font-style: black;
+    margin: 5px;
+  }
+
+.hidden{
+    /*　要素を重ねた時の順番　*/
+    z-index:1;  
+    /*　画面全体を覆う設定　*/
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:white;
+    /*　画面の中央に要素を表示させる設定　*/
+    display: block;
+    align-items: left;
+    justify-content:left ;
+  }
