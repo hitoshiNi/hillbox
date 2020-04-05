@@ -4,7 +4,7 @@
     display: block;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    /* text-align: center; */
   }
   
   h1{
@@ -17,51 +17,87 @@
   pre{
     font-size: 12px;
     text-align: left;
-    color: black;
+    color: #707070;
     word-wrap: break-word;
   }
 
   p{
-    font-size: 10px;
+    font-size: 12px;
     text-align: left;
-    color: black;
+    color: #707070;
     word-wrap: break-word;
   }
+  
   .header{
-      display: inline;
+    display: flex;
   }
-  .button{
+  .button_before{
     float: left;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 1px;
+    left: 15px;
+    width: 33px;
+    height: 50px;
+  }
+
+  .button_after{
+    /* float: left; */
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 33px;
+    height: 50px;
+    font-size: 30px;
+    color: #707070;
   }
 
   .icon{
-   display: inline-block;
-   align-items: center;
-   width: 30px;
+    margin-left: 125px;
+    margin-top: 13px;
+    width: 34px;
+    height: 34px;
   }
 
   .main_logo{
     width: 100%;
+    margin-top: 6px;
   }
   .content{
     position: relative;
-    width: 100%;
-    
+    width: 100%;    
   }
   .robo{
-    position: absolute;
-    top:25%;
-    left:1%;
-    width:15%;
+    position: relative;
+    height: 70%;
+    top: 10px;
   }
+
+  .robo_maru{
+    position: absolute;
+    /* float: left; */
+    margin-top: 21.5px;
+    left: 0px;
+    width: 71px;
+    height: 71px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E4E4E4;
+    opacity: 1;
+    border-radius: 50%; 
+    text-align: center;
+  }
+
+  .detail_box{
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 0px;
+    /* padding:5px 5px 5px 30px; */
+    background-color: #d3d3d3;
+  }
+
   .detail{
-     margin-top: 15px;
-     margin-left: 30px;
-     margin-right: 0px;
-     padding:5px 5px 5px 30px;
-     background-color: #d3d3d3;
+    padding:5px 5px 5px 45px;   
+  }
+
+  .menu_details{
+    padding-left: 22px;
   }
 
   .detail_privacy{
