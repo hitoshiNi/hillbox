@@ -17,6 +17,7 @@
       </div>
       <img src="../assets/icon.png" class="icon">
     </div>
+
     <img src="../assets/main_logo.png" class="main_logo">
     
     <div class="contents">
