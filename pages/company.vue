@@ -15,10 +15,10 @@
           </div>
         </div>
       </div>
-      <img src="../assets/icon.png" class="icon">
+      <img src="../assets/icon.PNG" class="icon">
     </div>
     
-    <img src="../assets/main_logo.png" class="main_logo">
+    <img src="../assets/main_logo.PNG" class="main_logo">
     
     <div class="contents">
       <div class="content">

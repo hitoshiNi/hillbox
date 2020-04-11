@@ -13,7 +13,7 @@
           <p><button v-on:click="close"><router-link to="/privacy" class="link_to_privacy">▷Privacy policy</router-link></button></p>
         </div>
       </div>
-      <img src="../assets/icon.png" class="icon">
+      <img src="../assets/icon.PNG" class="icon">
     </div>
     
     <div class="contents">
