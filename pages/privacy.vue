@@ -2,18 +2,20 @@
   <div class="container">
     <div class="header">
       <div class="menu">
-        <button v-on:click="open" class="button"><img src="../assets/≡.svg"></button>
+        <div class="button_before"><button v-on:click="open" ><img src="../assets/≡.svg" class="sansen"></button></div>
+        <div class="box"><img src="../assets/icon.PNG" class="icon"></div>
         <div class="hidden" v-show="isopen">
-          <button v-on:click="close" class="button">×</button>
-          <p><button v-on:click="close"><router-link to="/">▷HILLBOX inc. TOP</router-link></button></p>
-          <p><button v-on:click="close"><router-link to="/company">▷会社概要</router-link></button></p>
-          <p><button v-on:click="close"><router-link to="/">▷マーケティング・PR企画</router-link></button></p>
-          <p><button v-on:click="close"><router-link to="/">▷デジタルマーケティング</router-link></button></p>
-          <p><button v-on:click="close"><router-link to="/">▷アプリ/WEBサービス開発</router-link></button></p>
-          <p><button v-on:click="close"><router-link to="/privacy" class="link_to_privacy">▷Privacy policy</router-link></button></p>
+          <button v-on:click="close" class="button_after">×</button>
+          <div class="menu_details">
+            <p><button v-on:click="close"><router-link to="/">▷HILLBOX inc. TOP</router-link></button></p>
+            <p><button v-on:click="close"><router-link to="/company">▷会社概要</router-link></button></p>
+            <p><button v-on:click="close"><router-link to="/">▷マーケティング・PR企画</router-link></button></p>
+            <p><button v-on:click="close"><router-link to="/">▷デジタルマーケティング</router-link></button></p>
+            <p><button v-on:click="close"><router-link to="/">▷アプリ/WEBサービス開発</router-link></button></p>
+            <p><button v-on:click="close"><router-link to="/privacy">▷Privacy policy</router-link></button></p>
+          </div>
         </div>
       </div>
-      <img src="../assets/icon.PNG" class="icon">
     </div>
     
     <div class="contents">

@@ -1,8 +1,9 @@
 <template>
   <div class="container">
-<div class="header">
+    <div class="header">
       <div class="menu">
-        <button v-on:click="open" class="button_before"><img src="../assets/≡.svg"></button>
+        <div class="button_before"><button v-on:click="open" ><img src="../assets/≡.svg" class="sansen"></button></div>
+        <div class="box"><img src="../assets/icon.PNG" class="icon"></div>
         <div class="hidden" v-show="isopen">
           <button v-on:click="close" class="button_after">×</button>
           <div class="menu_details">
@@ -15,9 +16,7 @@
           </div>
         </div>
       </div>
-      <img src="../assets/icon.PNG" class="icon">
     </div>
-    
     <img src="../assets/main_logo.PNG" class="main_logo">
     
     <div class="contents">
