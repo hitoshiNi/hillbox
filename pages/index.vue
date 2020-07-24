@@ -2,16 +2,17 @@
   <div class="container">
     <div class="header">
       <div class="menu">
-        <div class="button_before"><button v-on:click="open" ><img src="../assets/≡.svg" class="sansen"></button></div>
+        <div class="button_before"><button v-on:click="open" ><img src="../assets/sozai_cman_jp_20200722022512.png" class="sansen"></button></div>
         <div class="box"><img src="../assets/icon.PNG" class="icon"></div>
         <div class="hidden" v-show="isopen">
-          <button v-on:click="close" class="button_after">×</button>
+          <button v-on:click="close" class="button_after"><img src="../assets/batsu.svg" class="batsu"></button>
           <div class="menu_details">
             <p><button v-on:click="close"><router-link to="/">▷HILLBOX inc. TOP</router-link></button></p>
             <p><button v-on:click="close"><router-link to="/company">▷会社概要</router-link></button></p>
             <p><button v-on:click="close"><router-link to="/">▷マーケティング・PR企画</router-link></button></p>
             <p><button v-on:click="close"><router-link to="/">▷デジタルマーケティング</router-link></button></p>
             <p><button v-on:click="close"><router-link to="/">▷アプリ/WEBサービス開発</router-link></button></p>
+            <pre><button v-on:click="close"><a href="https://twistantwin.com/">    ▶TwistanWin</a></button></pre>
             <p><button v-on:click="close"><router-link to="/privacy">▷Privacy policy</router-link></button></p>
           </div>
         </div>
@@ -28,7 +29,8 @@
          <div class="detail">
           <h1>マーケティング・PR企画</h1>
           <p>〇課題抽出から、コンセプト設計、商品企画、コミュニケーション提案の実行まで
-            <br>〇マス広告、イベント、SNS広告、PRなど</p>
+            <br>〇マス広告、イベント、SNS広告、PRなど
+            <br>〇経理・経営コンサルティング</p>
          </div>
        </section>
       </div>
@@ -52,7 +54,9 @@
          <div class="detail">
           <h1>アプリ/WEBサービス開発</h1>
           <p>〇アプリやWEBサービス、ITシステムの企画から開発まで
-            <br>〇新規サービス、業務効率化、ECサイトなど</p>
+            <br>〇新規サービス、業務効率化、ECサイトなど
+            <br><a href="https://twistantwin.com/">〇TwistantWin</a></p>
+          
          </div>
        </section>
       </div>
