@@ -16,17 +16,24 @@
   }
   
   pre{
-    font-size: 12px;
+    font-size: 15px;
     text-align: left;
     color: #707070;
     word-wrap: break-word;
+
   }
 
   p{
-    font-size: 12px;
+    font-size: 15px;
     text-align: left;
     color: #707070;
     word-wrap: break-word;
+
+  }
+
+  button{
+    background-color:rgba(0,0,0,0);
+    border: transparent 1px solid;
   }
   
   .header{
@@ -36,7 +43,7 @@
   }
 
   .sansen{
-     width: 20px;
+     width: 30px;
      margin: auto 0;
   }
 
@@ -59,6 +66,11 @@
     font-size: 25px;
     color: #707070;
   }
+
+  .batsu{
+    width: 20px;
+  }
+
   .box{
     display: inline-block;
     margin-right: 12px;
