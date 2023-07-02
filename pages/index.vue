@@ -9,8 +9,8 @@
           <div class="menu_details">
             <p><button v-on:click="close"><router-link to="/">▷HILLBOX inc. TOP</router-link></button></p>
             <p><button v-on:click="close"><router-link to="/company">▷会社概要</router-link></button></p>
-            <p><button v-on:click="close"><router-link to="/">▷マーケティング・PR企画</router-link></button></p>
-            <p><button v-on:click="close"><router-link to="/">▷デジタルマーケティング</router-link></button></p>
+            <p><button v-on:click="close"><router-link to="/">▷財務経理コンサルティング</router-link></button></p>
+            <p><button v-on:click="close"><router-link to="/">▷人事労務業務コンサルティング</router-link></button></p>
             <p><button v-on:click="close"><router-link to="/">▷アプリ/WEBサービス開発</router-link></button></p>
             <pre><button v-on:click="close"><a href="https://twistantwin.com/">    ▶TwistanWin</a></button></pre>
             <p><button v-on:click="close"><router-link to="/privacy">▷Privacy policy</router-link></button></p>
@@ -27,9 +27,9 @@
         </div>
        <section class="detail_box">
          <div class="detail">
-          <h1>マーケティング・PR企画</h1>
-          <p>〇課題抽出から、コンセプト設計、商品企画、コミュニケーション提案の実行まで
-            <br>〇マス広告、イベント、SNS広告、PRなど
+          <h1>財務経理コンサルティング</h1>
+          <p>〇財務面から課題を抽出。適切な財務環境へアドバイス
+            <br>〇経理は経営の羅針盤。適切な財務指標把握が経営の指針に
             <br>〇経理・経営コンサルティング</p>
          </div>
        </section>
@@ -40,9 +40,9 @@
         </div>
        <section class="detail_box">
          <div class="detail">
-          <h1>デジタルマーケティング</h1>
-          <p>〇デジタルマーケティング全般の戦略策定・導入支援・運用コンサルティング
-            <br>〇リスティング・動画広告・SNS広告などを活用したマーケティング施策</p>
+          <h1>人事労務業務コンサルティング</h1>
+          <p>〇企業における採用から退職までの社会保険に関する諸問題や年金相談
+            <br>〇人事労務管理を中心としたアドバイス</p>
          </div>
        </section>
       </div>
