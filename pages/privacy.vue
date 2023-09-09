@@ -9,9 +9,9 @@
           <div class="menu_details">
             <p><button v-on:click="close"><router-link to="/">▷HILLBOX inc. TOP</router-link></button></p>
             <p><button v-on:click="close"><router-link to="/company">▷会社概要</router-link></button></p>
-            <p><button v-on:click="close"><router-link to="/">▷財務経理コンサルティング</router-link></button></p>
-            <p><button v-on:click="close"><router-link to="/">▷人事労務業務コンサルティング</router-link></button></p>
-            <p><button v-on:click="close"><router-link to="/">▷アプリ/WEBサービス開発</router-link></button></p>
+            <p><button v-on:click="close"><router-link to="/">▷マーケティング・PR企画</router-link></button></p>
+            <p><button v-on:click="close"><router-link to="/">▷インバウンド/グローバル</router-link></button></p>
+            <p><button v-on:click="close"><router-link to="/">▷システム開発/デジタル広告</router-link></button></p>
             <pre><button v-on:click="close"><a href="https://twistantwin.com/">    ▶TwistanWin</a></button></pre>
             <p><button v-on:click="close"><router-link to="/privacy">▷Privacy policy</router-link></button></p>
           </div>
