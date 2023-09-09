@@ -9,9 +9,9 @@
           <div class="menu_details">
             <p><button v-on:click="close"><router-link to="/">▷HILLBOX inc. TOP</router-link></button></p>
             <p><button v-on:click="close"><router-link to="/company">▷会社概要</router-link></button></p>
-            <p><button v-on:click="close"><router-link to="/">▷財務経理コンサルティング</router-link></button></p>
-            <p><button v-on:click="close"><router-link to="/">▷人事労務業務コンサルティング</router-link></button></p>
-            <p><button v-on:click="close"><router-link to="/">▷アプリ/WEBサービス開発</router-link></button></p>
+            <p><button v-on:click="close"><router-link to="/">▷マーケティング・PR企画</router-link></button></p>
+            <p><button v-on:click="close"><router-link to="/">▷インバウンド/グローバル</router-link></button></p>
+            <p><button v-on:click="close"><router-link to="/">▷システム開発/デジタル広告</router-link></button></p>
             <pre><button v-on:click="close"><a href="https://twistantwin.com/">    ▶TwistanWin</a></button></pre>
             <p><button v-on:click="close"><router-link to="/privacy">▷Privacy policy</router-link></button></p>
           </div>
@@ -28,8 +28,8 @@
        <section class="detail_box">
         <div class="detail">
           <h1>会社概要</h1>
-          <pre>社名 ：ヒルボックス株式会社<br>     HILLBOX inc.<br>所在地：〒153-0061<br>     東京都目黒区中目黒5-28-18-202</pre>
-          <p>代表取締役：岡友紀</p>
+          <pre>社名 ：ヒルボックス株式会社<br>     HILLBOX inc.<br>所在地：〒153-0061<br>     東京都目黒区中目黒5-28-18-202<br>神谷町支店：〒105-0001<br>     東京都港区虎ノ門5-4-15-202</pre>
+          <p>代表取締役：岡康之</p>
           <p>問い合わせ：info@hillbox.net</p>
         </div>
        </section>

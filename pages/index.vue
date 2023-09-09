@@ -9,9 +9,9 @@
           <div class="menu_details">
             <p><button v-on:click="close"><router-link to="/">▷HILLBOX inc. TOP</router-link></button></p>
             <p><button v-on:click="close"><router-link to="/company">▷会社概要</router-link></button></p>
-            <p><button v-on:click="close"><router-link to="/">▷財務経理コンサルティング</router-link></button></p>
-            <p><button v-on:click="close"><router-link to="/">▷人事労務業務コンサルティング</router-link></button></p>
-            <p><button v-on:click="close"><router-link to="/">▷アプリ/WEBサービス開発</router-link></button></p>
+            <p><button v-on:click="close"><router-link to="/">▷マーケティング・PR企画</router-link></button></p>
+            <p><button v-on:click="close"><router-link to="/">▷インバウンド/グローバル</router-link></button></p>
+            <p><button v-on:click="close"><router-link to="/">▷システム開発/デジタル広告</router-link></button></p>
             <pre><button v-on:click="close"><a href="https://twistantwin.com/">    ▶TwistanWin</a></button></pre>
             <p><button v-on:click="close"><router-link to="/privacy">▷Privacy policy</router-link></button></p>
           </div>
@@ -27,10 +27,10 @@
         </div>
        <section class="detail_box">
          <div class="detail">
-          <h1>財務経理コンサルティング</h1>
-          <p>〇財務面から課題を抽出。適切な財務環境へアドバイス
-            <br>〇経理は経営の羅針盤。適切な財務指標把握が経営の指針に
-            <br>〇経理・経営コンサルティング</p>
+          <h1>マーケティング・PR企画</h1>
+          <p>〇課題抽出から、コンセプト設計、商品企画、PRまでトータルに提案実施
+            <br>〇CM、グラフィック、各種動画制作
+            <br>〇異業種コラボ、新タッチポイント創出</p>
          </div>
        </section>
       </div>
@@ -40,9 +40,10 @@
         </div>
        <section class="detail_box">
          <div class="detail">
-          <h1>人事労務業務コンサルティング</h1>
-          <p>〇企業における採用から退職までの社会保険に関する諸問題や年金相談
-            <br>〇人事労務管理を中心としたアドバイス</p>
+          <h1>インバウンド/グローバル</h1>
+          <p>〇⽵内亮はじめKOL、KOC施策。⽇中、北東亜マーケの推進
+            <br>〇微博、微信、各種SNS運⽤
+            <br>○富裕層マーケ、チャネル開拓</p>
          </div>
        </section>
       </div>
@@ -52,10 +53,10 @@
         </div>
        <section class="detail_box">
          <div class="detail">
-          <h1>アプリ/WEBサービス開発</h1>
-          <p>〇アプリやWEBサービス、ITシステムの企画から開発まで
-            <br>〇新規サービス、業務効率化、ECサイトなど
-            <br><a href="https://twistantwin.com/">〇TwistantWin</a></p>
+          <h1>システム開発/デジタル広告</h1>
+          <p>〇システム開発と広告運⽤を融合
+            <br>〇各種SNS、ECサイト開設運営
+            <br><a href="https://twistantwin.com/">〇＠HILLBOX製 TwistantWin</a></p>
           
          </div>
        </section>
